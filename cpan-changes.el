@@ -65,7 +65,7 @@
           "\\)$")
         (1 'cpan-changes-version-face)
         (2 'cpan-changes-date-face)))
-     '((,(concat "\\`\\(.*?\\)" version-re)
+     `((,(concat "\\`\\(.*?\\)" version-re)
         (1 'cpan-changes-preamble-face)))
      '(("^ +\\[\\(.+\\)\\]"
         (1 'cpan-changes-grouping-name-face))))))
