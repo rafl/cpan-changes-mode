@@ -1,3 +1,16 @@
+;;; cpan-changes.el --- Major mode for editing CPAN::Changes style changelogs
+
+;;; For a specification of CPAN Changes files see
+;;;    http://search.cpan.org/dist/CPAN-Changes/lib/CPAN/Changes/Spec.pod
+
+;;; Usage:
+;;;
+;;; Put this file into your load-path and the following into your ~/.emacs:
+;;;
+;;;    (autoload 'cpan-changes-mode "cpan-changes")
+;;;    (add-to-list 'auto-mode-alist '("Changes$" . cpan-changes-mode))
+
+
 (defgroup cpan-changes '((jit-lock custom-group))
   "Mode for editing CPAN module changelogs"
   :group 'faces)
